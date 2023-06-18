@@ -32,3 +32,8 @@ app.route('/').put( (req,res) => res.send(req.query.author))
 app.route('/').get( (req,res) => res.send(req.params.parametro))
 
 app.route('/').get( (req,res) => res.send("Olá"))
+
+
+
+// Pagando dados do github
+app.route('/').post((req, res)=>res.send("hello"))
